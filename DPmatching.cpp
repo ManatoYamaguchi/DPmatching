@@ -47,7 +47,7 @@ int Onseifile::file_open(string city_num, int file_count)
 	if(fin.fail())
 	{
 		cout << "./city_mcepdata/city" + city_num + "/city"
-			+ city_num + "_" + file_num + ".txtの読み込みに失敗\n";
+			+ city_num + "_" + file_num + ".txtの読み込みに失敗\n\n";
 		return 1;
 	}
 
