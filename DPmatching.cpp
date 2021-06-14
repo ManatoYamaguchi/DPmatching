@@ -194,10 +194,10 @@ int main()
 
 		cout << "二つのファイルの認識精度を検証します。\n";
 
-		cout << "ファイル名１：city";
+		cout << "テンプレートファイル：city";
 		cin >> city_num1;
 
-		cout << "ファイル名２：city";
+		cout << "　　　　未知ファイル：city";
 		cin >> city_num2;
 
 		//cout << "city_num1 : " << city_num1 << '\n';	//debug
